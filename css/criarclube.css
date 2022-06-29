@@ -1,0 +1,21 @@
+button a {
+    text-decoration: none;    
+    color: white;
+}
+
+button a:hover {
+    color: white;    
+}
+
+.titulo{
+    padding:15px;
+}
+.imagemD{
+    padding:15px;
+}
+.texto{
+    padding:15px;
+}
+.botao{
+    padding:15px;
+}

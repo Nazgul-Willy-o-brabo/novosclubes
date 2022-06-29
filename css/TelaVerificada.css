@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to bottom, #33ccff, white);
+}
+
+.valido{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+img{
+    height: 250px;
+}
+
+div {
+    padding-bottom: 16%;
+    margin-top: 50px;
+}
+
+button{
+    width: 200px;
+    padding-top: 20px;
+}

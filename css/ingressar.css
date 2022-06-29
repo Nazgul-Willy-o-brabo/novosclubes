@@ -1,0 +1,28 @@
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    color: white;
+}
+.Clubes{
+    background-color:rgb(193, 230, 254);
+    padding-top:20px;
+    margin: 12px;
+}
+.Clubes img{
+    width:100px;
+}
+.Clubes{
+    display:block;margin: 0 auto;
+}
+.TEXTODIV{
+    padding: 15px;
+}
+.TituloCat{
+    padding:15px;
+}
+.Botao{
+    padding: 35px;
+}

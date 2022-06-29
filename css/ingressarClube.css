@@ -1,0 +1,162 @@
+/* Cabeçalho da página */
+
+p {    
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+i:hover {
+    color: rgb(68, 88, 104);
+}
+
+.tags {
+    margin: 10%;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+
+    background-image: linear-gradient(to bottom, 
+    #ff4800 0%, 
+    #ff006a 50%,
+    red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+header {            
+    background-image: linear-gradient(to bottom, white 0%, #3A9ED7 50%, #235F81 100%);
+}
+
+.logo {            
+    width: 30%;
+    margin: 20px;        
+}
+
+.botoes {
+    padding: 40px;
+
+}
+.user {            
+    margin: 2%;
+    font-size: 30px;
+    color: black;
+}
+
+.notificacao { 
+    margin: 2%;       
+    font-size: 30px;
+    color: black;
+}
+
+header button{
+    max-width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.pesquisa input {        
+    width: 100%;   
+    margin: 0px;
+    padding: 5px;
+    border: 2px solid black;    
+    border-radius: 20px;
+}
+
+/* Rodapé da página */
+
+footer {    
+    background-image: linear-gradient(to bottom, #235F81, #071b27);
+    text-align: center;   
+}
+
+footer p {
+    margin: 15%;
+    font-weight: bolder;
+}
+
+/* Corpo da página */
+.clubes p{
+    font-size: large;
+}
+
+
+.clubes div {
+    margin-top: 30px;
+}
+.corFundo{
+    background-color: rgb(123, 197, 240);
+    padding-bottom: 30px;
+}
+.clubes{
+    padding-left: 10%;
+    margin-bottom: 30px;
+}
+.voltar{
+    margin: 30px;
+    padding-left: 20%;
+}
+.filtro-categoria svg{
+    margin-left: 10px;
+}
+.filtro-categoria input{
+    
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.filtro-content{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #0dcaf0;
+    border-radius: 5px;
+}
+svg{
+    color: black;
+}
+
+@media screen and (max-width:767px){
+    .filtro div, h5{
+        display: block;
+    }
+    .clubes img{
+        float: left;
+        width: 150px;
+        padding-top: 10px;
+        border-radius: 40%;
+        }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .filtro div, h5{
+        display: inline;
+    }  
+    .clubes img{
+        float: left;
+        width: 150px;
+        padding-top: 10px;
+        margin-right: 40px;
+        border-radius: 40%;
+        }
+        .clubes button{
+            margin-top: 120px;
+        }
+}
+
+@media screen and (min-width:992px){
+    .filtro div, h5{
+        display: inline;
+    }
+    .clubes img{
+        float: left;
+        width: 150px;
+        padding-top: 10px;
+        margin-right: 65px;
+        border-radius: 30%;
+        }
+        .clubes button{
+            margin-top: 120px;
+        }
+}
